@@ -49,7 +49,7 @@ clasificacion_variables = {
 
 def solicitud_API(muestra: list):
     # URL de la API
-    url = "https://apientregable2.azurewebsites.net/predict/"
+    url = "https://apientregable2.azurewebsites.net/predict"
 
     # Datos que serán enviados en el cuerpo de la petición
     data = {
